@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         body { font-family: 'Poppins', sans-serif; }
         h1, h2 { font-family: 'Playfair Display', serif; }
@@ -18,127 +19,449 @@
 <body class="bg-slate-50 text-slate-800">
 
   <nav class="flex justify-between items-center py-6 px-6 md:px-10 bg-white/90 backdrop-blur-md fixed w-full top-0 left-0 z-[100] shadow-sm">
-    <div class="text-2xl font-bold tracking-tighter text-blue-900">STEVAN<span class="text-amber-500">TOUR</span></div>
+    <div class="text-2xl font-bold tracking-tighter text-blue-900">KOMODO<span class="text-amber-500"> NICE TRIP</span></div>
     
     <button id="menu-btn" class="md:hidden text-2xl focus:outline-none">
         &#9776; </button>
     
     <div class="hidden md:flex space-x-8 font-medium">
         <a href="index.html" class="hover:text-amber-500 transition">Home</a>
-        <a href="bali-tour.html" class="hover:text-amber-500 transition">Bali Tour</a>
-        <a href="nusa-penida.html" class="hover:text-amber-500 transition">Nusa Penida Tour</a>
          <a href="gallery.html" class="hover:text-amber-500 transition">Gallery</a>
         <a href="booking.html" class="bg-blue-900 text-white px-6 py-2 rounded-full hover:bg-blue-800 transition">Booking Sekarang</a>
     </div>
 </nav>
 <div id="mobile-menu" class="hidden md:hidden fixed top-20 left-0 w-full bg-white shadow-lg z-40 p-6 flex flex-col space-y-4">
     <a href="index.html" class="text-lg font-medium hover:text-amber-500">Home</a>
-    <a href="bali-tour.html" class="text-lg font-medium hover:text-amber-500">Bali Tour</a>
-     <a href="nusa-penida.html" class="hover:text-amber-500 transition">Nusa Penida Tour</a>
      <a href="gallery.html" class="text-lg font-medium hover:text-amber-500">Gallery</a>
     <a href="booking.html" class="text-lg font-medium text-blue-900">Booking Sekarang</a>
 </div>
     </nav>
 
-   <header class="h-screen flex items-center justify-center text-center bg-cover bg-center" style="background-image: url('img/bali.jpg');">
+   <header class="h-screen flex items-center justify-center text-center bg-cover bg-center" style="background-image: url('img/kapal.jpg');">
     <div class="p-7 rounded-2xl">
         <h1 class="text-3xl md:text-7xl text-white mb-6 font-bold drop-shadow-lg">
-            Explore the World in Luxury
+            Komodo Nice Trip
         </h1>
         <p class="text-white text-lg mb-8 max-w-2xl mx-auto drop-shadow-md">
-            Exclusive travel experiences designed just for you. Enjoy unmatched comfort in your dream destination.
+            Komodo Nice Trip is your best choice to explore the best of the amazing Komodo Island.
         </p>
-        <a href="#paket" class="bg-amber-500 text-white px-10 py-2 rounded-full text-lg font-semibold hover:bg-amber-600 transition">
-            View Destinations
-        </a>
     </div>
 </header>
+<section class="max-w-md mx-auto py-6 px-4">
+    <div class="bg-blue-50 p-5 rounded-2xl border border-blue-100">
+        <h3 class="text-sm font-bold text-blue-900 uppercase tracking-wide mb-4 text-center">
+            ONE DAY TRIP TO KOMODO FROM BALI BY PRIVATE BOAT
+        </h3>
 
-   <section id="paket" class="py-10 px-4 max-w-6xl mx-auto">
-    <h2 class="text-2xl font-bold text-center mb-10">Exclusive Destination Choices</h2>
-    <div class="grid grid-cols-3 gap-2 my-6 px-2">
-    <a href="bali-tour.html" class="flex items-center justify-center py-3 bg-blue-900 text-white rounded-xl text-[11px] font-bold text-center">
-        Bali Tour
-    </a>
-    <a href="nusa-penida.html" class="flex items-center justify-center py-3 bg-white border border-blue-900 text-blue-900 rounded-xl text-[11px] font-bold text-center">
-        Nusa Penida
-    </a>
-    <a href="gallery.html" class="flex items-center justify-center py-3 bg-white border border-blue-900 text-blue-900 rounded-xl text-[11px] font-bold text-center">
-        Gallery
-    </a>
+        <div class="space-y-2 mb-6">
+            <div class="flex justify-between border-b border-blue-200 py-2">
+                <span class="text-sm text-gray-600">1-2 Person</span>
+                <span class="text-sm font-bold text-gray-900">575 USD/Person</span>
+            </div>
+            <div class="flex justify-between border-b border-blue-200 py-2">
+                <span class="text-sm text-gray-600">3-4 Person</span>
+                <span class="text-sm font-bold text-gray-900">475 USD/Person</span>
+            </div>
+            <div class="flex justify-between border-b border-blue-200 py-2">
+                <span class="text-sm text-gray-600">5-6 Person</span>
+                <span class="text-sm font-bold text-gray-900">425 USD/Person</span>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4 text-center text-[11px] text-gray-600 uppercase font-semibold">
+            <div>
+                <p class="text-gray-400">Departure</p>
+                <p>Bali (Hotel)</p>
+            </div>
+            <div>
+                <p class="text-gray-400">Departure Time</p>
+                <p>06:00 AM</p>
+            </div>
+            <div class="col-span-2 border-t pt-2 mt-2">
+                <p class="text-gray-400">Duration:</p>
+                <p>12 hours (approximately)</p>
+            </div>
+        </div>
+    </div>
+    <section class="py-8 px-1 w-full"> 
+    <h2 class="text-xl font-bold text-center text-blue-900 mb-6">OUR SERVICES</h2>
+    <h3 class="text-1xl font-bold text-black-900 mb-4 border-b border-gray-200 pb-2">Komodo Trip</h3>
+    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden flex flex-row items-center p-3 gap-4 mb-4 mx-2">
+    
+    <div class="w-1/3 aspect-square shrink-0 rounded-xl overflow-hidden">
+        <img src="img/komodotour.jpg" class="w-full h-full object-cover" alt="Komodo Trip">
+    </div>
+
+    <div class="w-2/3">
+        <h4 class="text-base font-bold text-black-900 leading-tight mb-1 uppercase">
+          ONE DAY KOMODO TRIP FROM BALI
+        </h4>
+        <p class="text-xs text-gray-600 font-medium">
+            Minimal 2 Person
+        </p>
+    </div>
 </div>
+<div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden flex flex-row items-center p-3 gap-4 mb-4 mx-2">
+    
+    <div class="w-1/3 aspect-square shrink-0 rounded-xl overflow-hidden">
+        <img src="img/2orang.jpg" class="w-full h-full object-cover" alt="Komodo Trip">
+    </div>
+
+    <div class="w-2/3">
+        <h4 class="text-base font-bold text-black-900 leading-tight mb-1 uppercase">
+           Private Komodo Trip 2 Days 1 Night
+        </h4>
+        <p class="text-xs text-gray-600 font-medium">
+            Minimal 2 Person
+        </p>
+    </div>
+</div>
+<div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden flex flex-row items-center p-3 gap-4 mb-4 mx-2">
+    
+    <div class="w-1/3 aspect-square shrink-0 rounded-xl overflow-hidden">
+        <img src="img/foto1.jpg" class="w-full h-full object-cover" alt="Komodo Trip">
+    </div>
+
+    <div class="w-2/3">
+        <h4 class="text-base font-bold text-black-900 leading-tight mb-1 uppercase">
+           Private Komodo Trip 3 Days 2 Nights
+        </h4>
+        <p class="text-xs text-gray-600 font-medium">
+            Minimal 2 Person
+        </p>
+    </div>
+</div>
+<div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden flex flex-row items-center p-3 gap-4 mb-4 mx-2">
+    
+    <div class="w-1/3 aspect-square shrink-0 rounded-xl overflow-hidden">
+        <img src="img/labuan.jpg" class="w-full h-full object-cover" alt="Komodo Trip">
+    </div>
+
+    <div class="w-2/3">
+        <h4 class="text-base font-bold text-black-900 leading-tight mb-1 uppercase">
+            Private Komodo Trip 4 Days 3 Nights
+        </h4>
+        <p class="text-xs text-gray-600 font-medium">
+            Minimal 2 Person
+        </p>
+    </div>
+</div>
+<div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden flex flex-row items-center p-3 gap-4 mb-4 mx-2">
+    
+    <div class="w-1/3 aspect-square shrink-0 rounded-xl overflow-hidden">
+        <img src="img/komowaerebo.jpg" class="w-full h-full object-cover" alt="Komodo Trip">
+    </div>
+
+    <div class="w-2/3">
+        <h4 class="text-base font-bold text-black-900 leading-tight mb-1 uppercase">
+           Komodo and Wae Rebo Trip 6 Days 5 Nights
+        </h4>
+        <p class="text-xs text-gray-600 font-medium">
+            Minimum 2 Pax
+        </p>
+    </div>
+</div>
+ <h3 class="text-1xl font-bold text-black-900 mb-4 border-b border-gray-200 pb-2">Flores Trip</h3>
+ <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden flex flex-row items-center p-3 gap-4 mb-4 mx-2">
+    <div class="w-1/3 aspect-square shrink-0 rounded-xl overflow-hidden">
+        <img src="img/kelimutu.jpg" class="w-full h-full object-cover" alt="Komodo Trip">
+    </div>
+
+    <div class="w-2/3">
+        <h4 class="text-base font-bold text-black-900 leading-tight mb-1 uppercase">
+           Komodo – Kelimutu Tour 5 Days 4 Nights
+        </h4>
+        <p class="text-xs text-gray-600 font-medium">
+            Minimum 2 Person
+        </p>
+    </div>
+</div>
+<div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden flex flex-row items-center p-3 gap-4 mb-4 mx-2">
+    <div class="w-1/3 aspect-square shrink-0 rounded-xl overflow-hidden">
+        <img src="img/overland.jpg" class="w-full h-full object-cover" alt="Komodo Trip">
+    </div>
+
+    <div class="w-2/3">
+        <h4 class="text-base font-bold text-black-900 leading-tight mb-1 uppercase">
+          Flores Overland 5 Days 4 Nights
+        </h4>
+        <p class="text-xs text-gray-600 font-medium">
+            Minimum 2 Pax
+        </p>
+    </div>
+</div>
+<div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden flex flex-row items-center p-3 gap-4 mb-4 mx-2">
+    <div class="w-1/3 aspect-square shrink-0 rounded-xl overflow-hidden">
+        <img src="img/lake.jpg" class="w-full h-full object-cover" alt="Komodo Trip">
+    </div>
+
+    <div class="w-2/3">
+        <h4 class="text-base font-bold text-black-900 leading-tight mb-1 uppercase">
+          Kelimutu Tour 2 Days 1 Night
+        </h4>
+        <p class="text-xs text-gray-600 font-medium">
+            Minimum 2 Pax
+        </p>
+    </div>
+</div>
+<div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden flex flex-row items-center p-3 gap-4 mb-4 mx-2">
+    <div class="w-1/3 aspect-square shrink-0 rounded-xl overflow-hidden">
+        <img src="img/waerebo.jpg" class="w-full h-full object-cover" alt="Komodo Trip">
+    </div>
+
+    <div class="w-2/3">
+        <h4 class="text-base font-bold text-black-900 leading-tight mb-1 uppercase">
+          Wae Rebo Tour 2 Days 1 Night
+        </h4>
+        <p class="text-xs text-gray-600 font-medium">
+            Minimum 2 Pax
+        </p>
+    </div>
+</div>
+   <div class="mt-8 mb-4 text-center px-4">
+    <a href="https://wa.me/6281375160363" 
+       class="flex items-center justify-center gap-2 w-full bg-green-600 text-white font-bold py-3 px-6 rounded-xl shadow-md transition-all active:scale-95">
+        <span class="text-lg"></span> <span class="text-sm">WHATSAPP</span>
+    </a>
+    
+    <p class="text-xs text-gray-400 mt-4">
+        Click above for direct consultation & booking
+    </p>
+</div>
+</section>
+    <div class="mt-6"> <h3 class="text-1xl font-bold text-blue-900 text-center mb-5">ITINERARY:</h3>
+<div class="px-6 py-4 border-2 border-blue-600 rounded-2xl mx-4">
+    <p class="text-center font-bold text-blue-900 text-sm leading-relaxed">
+        BALI → LABUAN BAJO → PINK BEACH → 
+        KOMODO NAT. PARK → TAKA MAKASAR → 
+        MANTA POINT
+    </p>
+</div>
+    <div class="mt-6 bg-blue-50 p-6 rounded-2xl mx-4 border border-blue-100">
+    <p class="text-gray-700 italic">
+            this trip starting from pick up from your hotel in bali, and our driver will drive you to the airport. so from the airport we are fligth one hour to get to labuan bajo. when you arive ther our profesional driver and guid will welcoming you and drive to the harbour to get the boat. so the first place:
+    </p>
+    </div>
+    <div id="itinerary-container" class="max-w-2xl mx-auto">
+        </div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         
-        <a href="ubud-trip.html" class="bg-white rounded-xl shadow-sm border border-slate-200 p-3 hover:shadow-md transition block">
-            <div class="flex flex-row md:flex-col items-center md:items-start">
-                <img src="img/profilubud.jpg" class="w-24 h-24 md:w-full md:h-48 object-cover rounded-lg" alt="Ubud">
-                <div class="ml-4 md:ml-0 md:mt-4 flex-1">
-                    <h3 class="font-bold text-blue-900">Ubud Trip</h3>
-                    <p class="text-xs text-slate-500">10 hours •  From Bali Area</p>
-                    <p class="text-sm font-semibold text-blue-900 mt-1">IDR 850K</p>
-                    <button class="hidden md:block w-full mt-3 border border-blue-900 text-blue-900 py-1.5 rounded-lg hover:bg-blue-900 hover:text-white transition">Lihat Detail</button>
-                </div>
-            </div>
-        </a>
+        <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-6 flex flex-col md:flex-row items-center p-4 gap-4">
+    
+    <div class="w-full md:w-1/3 h-48 md:h-32 shrink-0">
+        <img src="img/pink.jpg" 
+             class="w-full h-full object-cover rounded-xl" alt="Pink Beach">
+    </div>
+    <div class="w-full md:w-2/3">
+        <h3 class="text-xl font-bold text-blue-900 mb-2">Pink Beach</h3>
+        <p class="text-sm text-gray-600 leading-relaxed">
+            Pink beach is located near by komodo island. This place have a very nice pink beach, crystal water, and also beautiful under water marine life. Pink beach is a one of the nice spot to do snorkeling on the komodo island area. We can do snorkeling and also relax time right here.
+        </p>
+    </div>
+</div>
 
-        <a href="north-bali.html" class="bg-white rounded-xl shadow-sm border border-slate-200 p-3 hover:shadow-md transition block">
-            <div class="flex flex-row md:flex-col items-center md:items-start">
-                <img src="img/northbali.jpg" class="w-24 h-24 md:w-full md:h-48 object-cover rounded-lg" alt="North Bali">
-                <div class="ml-4 md:ml-0 md:mt-4 flex-1">
-                    <h3 class="font-bold text-blue-900">North Bali</h3>
-                    <p class="text-xs text-slate-500">10 hours •  From Bali Area</p>
-                    <p class="text-sm font-semibold text-blue-900 mt-1">IDR 930K</p>
-                    <button class="hidden md:block w-full mt-3 border border-blue-900 text-blue-900 py-1.5 rounded-lg hover:bg-blue-900 hover:text-white transition">Lihat Detail</button>
-                </div>
-            </div>
-        </a>
-         <a href="tanah-lot.html" class="bg-white rounded-xl shadow-sm border border-slate-200 p-3 hover:shadow-md transition block">
-            <div class="flex flex-row md:flex-col items-center md:items-start">
-                <img src="img/tanalot.jpg" class="w-24 h-24 md:w-full md:h-48 object-cover rounded-lg" alt="North Bali">
-                <div class="ml-4 md:ml-0 md:mt-4 flex-1">
-                    <h3 class="font-bold text-blue-900">Tanah Lot Temple</h3>
-                    <p class="text-xs text-slate-500">10 hours •  From Bali Area</p>
-                    <p class="text-sm font-semibold text-blue-900 mt-1">IDR 930K</p>
-                    <button class="hidden md:block w-full mt-3 border border-blue-900 text-blue-900 py-1.5 rounded-lg hover:bg-blue-900 hover:text-white transition">Lihat Detail</button>
-                </div>
-            </div>
-        </a>
-        <a href="uluwatu.html" class="bg-white rounded-xl shadow-sm border border-slate-200 p-3 hover:shadow-md transition block">
-            <div class="flex flex-row md:flex-col items-center md:items-start">
-                <img src="img/uluwatu-kecak1.jpg" class="w-24 h-24 md:w-full md:h-48 object-cover rounded-lg" alt="North Bali">
-                <div class="ml-4 md:ml-0 md:mt-4 flex-1">
-                    <h3 class="font-bold text-blue-900">Uluwatu Kecak and Fire Dance</h3>
-                    <p class="text-xs text-slate-500">10 hours •  From Bali Area</p>
-                    <p class="text-sm font-semibold text-blue-900 mt-1">IDR 930K</p>
-                    <button class="hidden md:block w-full mt-3 border border-blue-900 text-blue-900 py-1.5 rounded-lg hover:bg-blue-900 hover:text-white transition">Lihat Detail</button>
-                </div>
-            </div>
-        </a>
-        <a href="heaven.html" class="bg-white rounded-xl shadow-sm border border-slate-200 p-3 hover:shadow-md transition block">
-            <div class="flex flex-row md:flex-col items-center md:items-start">
-                <img src="img/lempuyeng.jpg" class="w-24 h-24 md:w-full md:h-48 object-cover rounded-lg" alt="North Bali">
-                <div class="ml-4 md:ml-0 md:mt-4 flex-1">
-                    <h3 class="font-bold text-blue-900">Heaven Gate and Ancient Vilage</h3>
-                    <p class="text-xs text-slate-500">10 hours •  From Bali Area</p>
-                    <p class="text-sm font-semibold text-blue-900 mt-1">IDR 1,090K</p>
-                    <button class="hidden md:block w-full mt-3 border border-blue-900 text-blue-900 py-1.5 rounded-lg hover:bg-blue-900 hover:text-white transition">Lihat Detail</button>
-                </div>
-            </div>
-        </a>
-         <a href="lovina.html" class="bg-white rounded-xl shadow-sm border border-slate-200 p-3 hover:shadow-md transition block">
-            <div class="flex flex-row md:flex-col items-center md:items-start">
-                <img src="img/lovina.jpg" class="w-24 h-24 md:w-full md:h-48 object-cover rounded-lg" alt="North Bali">
-                <div class="ml-4 md:ml-0 md:mt-4 flex-1">
-                    <h3 class="font-bold text-blue-900">Lovina Beach,Dolphin and Waterfalls</h3>
-                    <p class="text-xs text-slate-500">10 hours • From Bali Area</p>
-                    <p class="text-sm font-semibold text-blue-900 mt-1">IDR 1,160K</p>
-                    <button class="hidden md:block w-full mt-3 border border-blue-900 text-blue-900 py-1.5 rounded-lg hover:bg-blue-900 hover:text-white transition">Lihat Detail</button>
-                </div>
-            </div>
+        <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-6 flex flex-col md:flex-row items-center p-4 gap-4">
+    
+    <div class="w-full md:w-1/3 h-48 md:h-32 shrink-0">
+        <img src="img/islandkomodo.jpg" 
+             class="w-full h-full object-cover rounded-xl" alt="Komodo Island">
+    </div>
+
+    <div class="w-full md:w-2/3">
+        <h3 class="text-xl font-bold text-blue-900 mb-2">Komodo Island</h3>
+        <p class="text-sm text-gray-600 leading-relaxed">
+            Pink beach is located near by komodo island. This place have a very nice pink beach, crystal water, and also beautiful under water marine life. Pink beach is a one of the nice spot to do snorkeling on the komodo island area. We can do snorkeling and also relax time right here.
+        </p>
+    </div>
+</div>
+ <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-6 flex flex-col md:flex-row items-center p-4 gap-4">
+    
+    <div class="w-full md:w-1/3 h-48 md:h-32 shrink-0">
+        <img src="img/taka.jpg" 
+             class="w-full h-full object-cover rounded-xl" alt="Taka Makasar">
+    </div>
+
+    <div class="w-full md:w-2/3">
+        <h3 class="text-xl font-bold text-blue-900 mb-2">Taka Makasar</h3>
+        <p class="text-sm text-gray-600 leading-relaxed">
+            Pink beach is located near by komodo island. This place have a very nice pink beach, crystal water, and also beautiful under water marine life. Pink beach is a one of the nice spot to do snorkeling on the komodo island area. We can do snorkeling and also relax time right here.
+        </p>
+    </div>
+</div>
+         <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-6 flex flex-col md:flex-row items-center p-4 gap-4">
+    
+    <div class="w-full md:w-1/3 h-48 md:h-32 shrink-0">
+        <img src="img/manta.jpg" 
+             class="w-full h-full object-cover rounded-xl" alt="Manta Point">
+    </div>
+    <div class="w-full md:w-2/3">
+        <h3 class="text-xl font-bold text-blue-900 mb-2">Manta Point</h3>
+        <p class="text-sm text-gray-600 leading-relaxed">
+            Pink beach is located near by komodo island. This place have a very nice pink beach, crystal water, and also beautiful under water marine life. Pink beach is a one of the nice spot to do snorkeling on the komodo island area. We can do snorkeling and also relax time right here.
+        </p>
+    </div>
+</div>
+        <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-6 flex flex-col md:flex-row items-center p-4 gap-4">
+    
+    <div class="w-full md:w-1/3 h-48 md:h-32 shrink-0">
+        <img src="img/sebayur.jpg" 
+             class="w-full h-full object-cover rounded-xl" alt="Sebayur Island">
+    </div>
+
+    <div class="w-full md:w-2/3">
+        <h3 class="text-xl font-bold text-blue-900 mb-2">Sebayur Island</h3>
+        <p class="text-sm text-gray-600 leading-relaxed">
+            Pink beach is located near by komodo island. This place have a very nice pink beach, crystal water, and also beautiful under water marine life. Pink beach is a one of the nice spot to do snorkeling on the komodo island area. We can do snorkeling and also relax time right here.
+        </p>
+    </div>
+</section>
+    <div class="max-w-md mx-auto py-6 px-4 text-center">
+    <h3 class="text-xl font-bold text-gray-900 mb-4 border-b-2 border-blue-600 inline-block">LABUAN BAJO – BACK TO BALI</h3>
+    
+    <div class="grid grid-cols-1 gap-8 text-left">
+        
+        <div>
+            <h4 class="text-green-600 font-bold mb-2 flex items-center">
+                <span class="mr-2">✅</span> INCLUDED:
+            </h4>
+            <ul class="text-sm text-gray-600 space-y-2">
+                <li>• Round trip flights from/to Bali</li>
+                <li>• Transfer in/out of Bali & Labuan Bajo (AC)</li>
+                <li>• Speedboat / Private Charter</li>
+                <li>• English speaking professional guide</li>
+                <li>• Lunch box & Mineral water</li>
+                <li>• Snorkeling equipment</li>
+            </ul>
+        </div>
+
+        <div>
+            <h4 class="text-red-500 font-bold mb-2 flex items-center">
+                <span class="mr-2">❌</span> NOT INCLUDED:
+            </h4>
+            <ul class="text-sm text-gray-600 space-y-2">
+                <li>• Travel insurance</li>
+                <li>• National park entrance fee</li>
+                <li>• Soft & alcoholic drinks</li>
+                <li>• Personal needs</li>
+                <li>• Other personal expenses</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="mt-8 bg-gray-50 p-4 rounded-xl border border-gray-200">
+        <h4 class="font-bold mb-3">WHAT TO BRING:</h4>
+        <div class="flex flex-wrap gap-3 text-sm text-gray-700">
+            <span class="bg-white px-3 py-1 rounded-full border">🧳 Small Suitcase</span>
+            <span class="bg-white px-3 py-1 rounded-full border">🛂 Passport</span>
+            <span class="bg-white px-3 py-1 rounded-full border">🏖️ Beach Towels</span>
+            <span class="bg-white px-3 py-1 rounded-full border">☀️ Sunscreen</span>
+            <span class="bg-white px-3 py-1 rounded-full border">🥾 Trekking Shoes</span>
+        </div>
+    </div>
+</div>
+    <div class="mt-6 bg-blue-50 p-6 rounded-2xl mx-4 border border-blue-100">
+    <p class="text-gray-700 italic">
+           after the snorkeling we prepare and get back to labuan bajo port, when we arive there our profesional driver will ready to pick you up and drive you back to the labuan bajo airport, and then flight back to bali. when you arive in bali our profesional driver will be ready to pick you up and drive you back in to your hotel in bali as well.
+    </p>
+    </div>
+</div>
+<div class="mt-12"> <h3 class="text-1xl font-bold text-blue-900 text-center mb-5">Had a great day! Many thanks!:</h3>
+    <!-- Wrapper Foto yang sudah diperkecil -->
+<div class="relative group max-w-md mx-auto my-4">
+    <!-- h-72 membuat kotak jadi lebih pendek dan ramping -->
+    <div id="gallery" class="flex overflow-x-auto snap-x snap-mandatory scrollbar-hide rounded-xl h-72"> 
+        
+        <img src="img/national.jpg.jpeg" class="min-w-full h-full object-cover snap-center" alt="Foto 1">
+        <img src="img/komodo.jpg" class="min-w-full h-full object-cover snap-center" alt="Foto 2">
+        <img src="img/bule.jpg.jpeg" class="min-w-full h-full object-cover snap-center" alt="Foto 3">
+         <img src="img/bule2.jpg.jpeg" class="min-w-full h-full object-cover snap-center" alt="Foto 3">
+          <img src="img/1orang.jpg.jpeg" class="min-w-full h-full object-cover snap-center" alt="Foto 3">
+          <img src="img/3orang.jpg.jpeg" class="min-w-full h-full object-cover snap-center" alt="Foto 3">
+    </div>
+
+    <!-- Panah navigasi -->
+    <button onclick="document.getElementById('gallery').scrollBy({left: -300, behavior: 'smooth'})" 
+            class="absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full backdrop-blur-sm">
+        ❮
+    </button>
+    <button onclick="document.getElementById('gallery').scrollBy({left: 300, behavior: 'smooth'})" 
+            class="absolute right-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full backdrop-blur-sm">
+        ❯
+    </button>
+</div>
+<div class="mt-8 mb-10 text-center px-4">
+    <h3 class="text-lg font-bold text-gray-900 mb-4">Connect with us</h3>
+    <div class="mt-8 mb-12 flex justify-center items-center gap-6">
+    
+    <a href="https://wa.me/6281375160363" target="_blank" class="text-green-600 hover:text-green-700 transition-colors">
+        <i class="fab fa-whatsapp text-3xl"></i>
+    </a>
+
+    <a href="https://instagram.com/usernameanda" target="_blank" class="text-pink-600 hover:text-pink-700 transition-colors">
+        <i class="fab fa-instagram text-3xl"></i>
+    </a>
+
+    <a href="https://facebook.com/usernameanda" target="_blank" class="text-blue-700 hover:text-blue-800 transition-colors">
+        <i class="fab fa-facebook text-3xl"></i>
+    </a>
+
+    <a href="mailto: hilariusmulyanto71@gmail.com" class="text-red-500 hover:text-red-600 transition-colors">
+        <i class="fas fa-envelope text-3xl"></i>
+    </a>
+</div>
+<div class="mt-8 mb-12 px-4">
+    <h3 class="text-xs font-bold text-gray-400 uppercase tracking-widest text-center mb-6">Payment Methods</h3>
+
+    <div class="flex justify-between items-center gap-2 mb-6">
+        <button onclick="showPayment('paypal')" class="w-1/3 flex flex-col items-center p-3 border-2 border-gray-200 rounded-xl hover:border-blue-500 transition-all">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" class="h-8 object-contain" alt="PayPal">
+            <i class="fas fa-chevron-down text-[10px] text-gray-400 mt-2"></i>
+        </button>
+        <button onclick="showPayment('wise')" class="w-1/3 flex flex-col items-center p-3 border-2 border-blue-500 bg-blue-50 rounded-xl">
+            <img src="img/wise_thumb.png" class="h-8 object-contain" alt="Wise">
+            <i class="fas fa-chevron-down text-[10px] text-gray-500 mt-2"></i>
+        </button>
+        <button onclick="showPayment('bca')" class="w-1/3 flex flex-col items-center p-3 border-2 border-gray-200 rounded-xl hover:border-blue-500 transition-all">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Bank_Central_Asia.svg" class="h-8 object-contain" alt="BCA">
+            <i class="fas fa-chevron-down text-[10px] text-gray-400 mt-2"></i>
+        </button>
+    </div>
+
+    <div id="payment-display" class="bg-gray-100 rounded-2xl p-6 shadow-inner text-center">
+        <h4 id="pay-title" class="text-xs font-bold text-gray-600 mb-4 uppercase">WISE TRANSFER</h4>
+        <div id="pay-content" class="space-y-2">
+            <p class="text-sm">Phone Number: <b class="block text-lg">+6281375160363</b></p>
+            <p class="text-sm">Account Name: <b class="block text-md">Hilarius Mulyanto</b></p>
+        </div>
+    </div>
+</div>
+
+<script>
+function showPayment(type) {
+    const title = document.getElementById('pay-title');
+    const content = document.getElementById('pay-content');
+    
+    if(type === 'paypal') {
+        title.innerText = "PAYPAL TRANSFER";
+        content.innerHTML = "<p class='text-sm'>Email Address:</p><p class='text-md font-bold'>hilariusmulyanto71@gmail.com</p><p class='text-sm'>Phone Number:</p><p class='text-lg font-bold'>+6281375160363</p>";
+    } else if(type === 'wise') {
+        title.innerText = "WISE TRANSFER";
+        content.innerHTML = "<p class='text-sm'>Phone Number:</p><p class='text-lg font-bold'>+6281375160363</p><p class='text-sm'>Account Name: <b class='block'>Hilarius Mulyanto</b></p>";
+    } else if(type === 'bca') {
+        title.innerText = "BANK TRANSFER (BCA)";
+        content.innerHTML = "<p class='text-sm'>Account Number:</p><p class='text-2xl font-bold tracking-wider'>772 590 2166</p><p class='text-sm'>Account Name: <b class='block'>Hilarius Mulyanto</b></p>";
+    }
+}
+</script>
+    <div class="bg-blue-50 p-6 rounded-2xl text-center mt-12">
+        <h3 class="text-lg font-bold text-blue-900 mb-2">NEED HELP?</h3>
+        <p class="text-sm text-gray-600 mb-4">Wherever you are, we can connect with just one click!</p>
+        <a href="https://wa.me/nomor" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-full font-bold hover:bg-blue-700">
+            Chat on WhatsApp
         </a>
     </div>
 </section>
-<a href="https://wa.me/6281228842642" class="fixed bottom-6 right-6 z-50">
+<a href="https://wa.me/6281375160363" class="fixed bottom-6 right-6 z-50">
     <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" class="w-16 h-16 shadow-lg rounded-full" alt="WhatsApp">
 </a>
     <script src="script.js"></script>
